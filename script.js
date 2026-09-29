@@ -23,7 +23,7 @@ function download(files){
     }
 
     if(files == "MelonDS"){
-        downloadd.href = 'emulator/emulator_files/melonDS.zip';
+        downloadd.href = 'emulator/emulator_files/melonDS';
     }
 }
 
