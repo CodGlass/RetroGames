@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Arcade Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+
+    <header>
+        <h1>Retro Game</h1>
+    </header>
+
+    <section class="body">
+        <nav>
+            <label for="kod">Kod: </label>
+            <input id="kod" type="text">
+            <button onclick="activate_kod()">activate</button>
+        </nav>
+
+        <section class="function">
+
+            <aside>
+
+                <h3>Emulator</h3>
+                <hr>
+                <button onclick="MelonDS()">MelonDS</button>
+
+                <h3>Game</h3>
+                <hr>
+                <button onclick="PVZ()">Plants vs. Zombies</button><br>
+
+                <button onclick="Pokemon_Platinum()">Pokemon Platinum</button><br>
+
+                <button onclick="Adventure_Time()">Adventure Time Hey Ice King Whyd you Steal our Garbage!</button><br>
+
+                <button onclick="Castlevania()">Castlevania - Portrait of Ruin</button><br>
+
+                <button onclick="Dragon_Quest_4()">Dragon Quest IV - Chapters of the Chosen</button><br>
+                
+                <button onclick="Final_Fantasy_3()">Final Fantasy III</button><br>
+
+                <button onclick="Final_Fantasy_4()">Final Fantasy IV</button><br>
+
+                <button onclick="Mechanic_Master()">Mechanic Master</button>
+            </aside>
+
+
+
+            <main>
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            <h2 id="nagl">Retro Arcade Hub</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td id="paragraf">
+                            mozna obserwowac retro gry
+                        </td>
+                        <td rowspan="2" id="foto">
+                            <img id="foto_game" src="logo.jpg" alt="NULL">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a id="download" href="#">
+                                <button>download</button>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                
+            </main>
+
+        </section>
+
+        <footer>
+            <p></p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
