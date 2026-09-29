@@ -5,25 +5,25 @@ var downloadd = document.getElementById('download');
 
 function download(files){
     if(files == "PVZ"){
-        downloadd.href = 'game/game_files/PVZrus_dub.nds';
+        downloadd.href = 'game/game_files/PVZrus_dub';
     }else if(files == "PPV"){
-        downloadd.href = 'game/game_files/Pokemon Platinum Version.nds';
+        downloadd.href = 'game/game_files/Pokemon Platinum Version';
     }else if(files == "AT"){
-        downloadd.href = 'game/game_files/Adventure Time Hey Ice King Whyd you Steal our Garbage!.nds';
+        downloadd.href = 'game/game_files/Adventure Time Hey Ice King Whyd you Steal our Garbage!';
     }else if(files == "Castl"){
-        downloadd.href = 'game/game_files/Castlevania - Portrait of Ruin.nds';
+        downloadd.href = 'game/game_files/Castlevania - Portrait of Ruin';
     }else if(files == "DQ4"){
-        downloadd.href = 'game/game_files/Dragon Quest IV - Chapters of the Chosen.nds';
+        downloadd.href = 'game/game_files/Dragon Quest IV - Chapters of the Chosen';
     }else if(files == "FF3"){
-        downloadd.href = 'game/game_files/Final Fantasy III.nds';
+        downloadd.href = 'game/game_files/Final Fantasy III';
     }else if(files == "FF4"){
-        downloadd.href = 'game/game_files/Final Fantasy IV.nds';
+        downloadd.href = 'game/game_files/Final Fantasy IV';
     }else if(files == "MM"){
-        downloadd.href = 'game/game_files/Mechanic Master.nds';
+        downloadd.href = 'game/game_files/Mechanic Master';
     }
 
     if(files == "MelonDS"){
-        downloadd.href = 'emulator/emulator_files/melonDS.exe';
+        downloadd.href = 'emulator/emulator_files/melonDS';
     }
 }
 
